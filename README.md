@@ -16,8 +16,8 @@ With the rapid spread of online misinformation, automatic fake news detection sy
 
 The model was trained on labeled news datasets containing:
 
-* Real news articles
-* Fake news articles
+- Real news articles
+- Fake news articles
 
 Text preprocessing and feature extraction were applied before model training.
 
@@ -30,26 +30,25 @@ This project was developed for practice purposes. The current model is highly de
 
 ### 1️⃣ Text Preprocessing
 
-* Lowercasing
-* Removing punctuation and special characters
-* Tokenization
-* Stopword removal
-* Text cleaning
+- Lowercasing
+- Removing punctuation and special characters
+- Tokenization
+- Stopword removal
+- Text cleaning
 
 ### 2️⃣ Feature Extraction
 
-* Text vectorization using techniques such as:
-
-  * CountVectorizer / TF-IDF
+- Text vectorization using techniques such as:
+  - CountVectorizer / TF-IDF
 
 ### 3️⃣ Model Training
 
-* Supervised machine learning classifier trained on processed text data
+- Supervised machine learning classifier trained on processed text data
 
 ### 4️⃣ Model Evaluation
 
-* Accuracy score
-* Classification report (Precision, Recall, F1-Score)
+- Accuracy score
+- Classification report (Precision, Recall, F1-Score)
 
 ---
 
@@ -57,41 +56,39 @@ This project was developed for practice purposes. The current model is highly de
 
 The model achieves reasonable performance on the test dataset. However:
 
-* It struggles with generalization outside the training dataset.
-* It may classify most unseen real-world articles as fake.
-* The dataset size and diversity significantly affect performance.
+- It struggles with generalization outside the training dataset.
+- It may classify most unseen real-world articles as fake.
+- The dataset size and diversity significantly affect performance.
 
 This highlights the importance of:
 
-* Larger and more diverse datasets
-* Better preprocessing and feature engineering
-* Advanced models (e.g., deep learning, transformer-based models)
+- Larger and more diverse datasets
+- Better preprocessing and feature engineering
+- Advanced models (e.g., deep learning, transformer-based models)
 
 ---
 
 ## 🚀 Future Improvements
 
-* Expand and diversify the dataset
-* Implement advanced NLP models (LSTM, BERT, Transformer-based models)
-* Perform hyperparameter tuning
-* Improve class balancing
-* Deploy the model with a proper API or web interface
+- Expand and diversify the dataset
+- Implement advanced NLP models (LSTM, BERT, Transformer-based models)
+- Perform hyperparameter tuning
+- Improve class balancing
+- Deploy the model with a proper API or web interface
 
 ---
 
 ## 🛠 Tech Stack
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* NLP preprocessing techniques
-* Jupyter Notebook
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- NLP preprocessing techniques
+- Jupyter Notebook
 
 ---
 
 ## 🎯 Project Purpose
 
 This project serves as a hands-on practice implementation of text classification and fake news detection. It demonstrates the complete machine learning workflow, from preprocessing to evaluation, while highlighting the challenges of model generalization in real-world NLP tasks.
-
-
